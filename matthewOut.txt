@@ -1,0 +1,416 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< edu.smu.is442-g1t6:IS442-G1T6-IS442 >-----------------
+[INFO] Building IS442-G1T6-IS442 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ IS442-G1T6-IS442 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\fried_nvxpn\Documents\Github\is442-g1t6-is442\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ IS442-G1T6-IS442 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 48 source files to C:\Users\fried_nvxpn\Documents\Github\is442-g1t6-is442\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[6,8] cannot find symbol
+  symbol:   class ArrayList
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[6,18] cannot find symbol
+  symbol:   class Gift
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/cityfarmerMenu.java:[10,46] cannot find symbol
+  symbol:   class Farmer
+  location: class main.java.pages.cityfarmer.cityfarmerMenu
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/cityfarmerMenu.java:[4,1] package main.object.cityfarmer does not exist
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myInventory.java:[4,1] package lib does not exist
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/sendGift.java:[15,40] cannot find symbol
+  symbol:   class Farmer
+  location: class main.java.pages.cityfarmer.sendGift
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/FarmerDAO.java:[24,33] constructor Farmer in class main.java.object.cityfarmer.Farmer cannot be applied to given types;
+  required: java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,double,int,java.util.Date
+  found:    java.lang.String,java.lang.String,int,java.lang.String,double,int,java.util.Date
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Farmer.java:[24,21] fullName has private access in main.java.object.member.User
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[83,78] cannot find symbol
+  symbol:   variable landNumber
+  location: class main.java.object.cityfarmer.VisitLogic
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[83,47] non-static method reduceCrop(int,java.lang.String,int) cannot be referenced from a static context
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[84,87] cannot find symbol
+  symbol:   variable landNumber
+  location: class main.java.object.cityfarmer.VisitLogic
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[91,65] cannot find symbol
+  symbol:   variable landNumber
+  location: class main.java.object.cityfarmer.VisitLogic
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[94,67] incompatible types: int cannot be converted to java.lang.Double
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[94,81] incompatible types: java.lang.Integer cannot be converted to java.lang.Double
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[105,35] cannot find symbol
+  symbol:   variable sellPrice
+  location: class main.java.object.cityfarmer.VisitLogic
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Land.java:[39,16] incompatible types: java.sql.Timestamp cannot be converted to int
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Land.java:[57,50] no suitable method found for valueOf(java.sql.Timestamp)
+    method java.sql.Timestamp.valueOf(java.lang.String) is not applicable
+      (argument mismatch; java.sql.Timestamp cannot be converted to java.lang.String)
+    method java.sql.Timestamp.valueOf(java.time.LocalDateTime) is not applicable
+      (argument mismatch; java.sql.Timestamp cannot be converted to java.time.LocalDateTime)
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Land.java:[61,54] no suitable method found for valueOf(java.sql.Timestamp)
+    method java.sql.Timestamp.valueOf(java.lang.String) is not applicable
+      (argument mismatch; java.sql.Timestamp cannot be converted to java.lang.String)
+    method java.sql.Timestamp.valueOf(java.time.LocalDateTime) is not applicable
+      (argument mismatch; java.sql.Timestamp cannot be converted to java.time.LocalDateTime)
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Land.java:[69,72] cannot find symbol
+  symbol:   method get(int)
+  location: variable doneString of type java.lang.String
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[8,9] cannot find symbol
+  symbol:   class Connection
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[8,27] cannot find symbol
+  symbol:   variable DriverManager
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[11,9] cannot find symbol
+  symbol:   class Statement
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[16,9] cannot find symbol
+  symbol:   class ArrayList
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[16,19] cannot find symbol
+  symbol:   class Gift
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[16,33] cannot find symbol
+  symbol:   class ArrayList
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[22,23] cannot find symbol
+  symbol:   class Gift
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[26,13] cannot find symbol
+  symbol:   class SQLException
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[33,9] cannot find symbol
+  symbol:   class Connection
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[33,27] cannot find symbol
+  symbol:   variable DriverManager
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[36,9] cannot find symbol
+  symbol:   class Statement
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[43,12] cannot find symbol
+  symbol:   class SQLException
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[51,9] cannot find symbol
+  symbol:   class Connection
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[51,27] cannot find symbol
+  symbol:   variable DriverManager
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[54,9] cannot find symbol
+  symbol:   class Statement
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[62,12] cannot find symbol
+  symbol:   class SQLException
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[70,9] cannot find symbol
+  symbol:   class Connection
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[70,27] cannot find symbol
+  symbol:   variable DriverManager
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[73,9] cannot find symbol
+  symbol:   class Statement
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[81,12] cannot find symbol
+  symbol:   class SQLException
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[89,9] cannot find symbol
+  symbol:   class Connection
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[89,27] cannot find symbol
+  symbol:   variable DriverManager
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[92,9] cannot find symbol
+  symbol:   class Statement
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[100,12] cannot find symbol
+  symbol:   class SQLException
+  location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/testfolder/TestWall.java:[19,17] method post in class main.java.dao.UserPostsDAO cannot be applied to given types;
+  required: java.lang.String,java.lang.String,java.util.ArrayList<java.lang.String>,java.lang.String
+  found:    java.lang.String,java.util.ArrayList<java.lang.String>,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/testfolder/TestWall.java:[26,17] method post in class main.java.dao.UserPostsDAO cannot be applied to given types;
+  required: java.lang.String,java.lang.String,java.util.ArrayList<java.lang.String>,java.lang.String
+  found:    java.lang.String,java.util.ArrayList<java.lang.String>,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Gift.java:[10,13] cannot find symbol
+  symbol: variable username
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Gift.java:[10,25] cannot find symbol
+  symbol:   variable username
+  location: class main.java.Object.CityFarmer.Gift
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/cityfarmerMenu.java:[32,21] cannot find symbol
+  symbol:   variable myStore
+  location: class main.java.pages.cityfarmer.cityfarmerMenu
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[40,39] cannot find symbol
+  symbol:   class User
+  location: class myStore
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[40,13] cannot find symbol
+  symbol:   variable MainMenu
+  location: class myStore
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[43,13] cannot find symbol
+  symbol:   variable cityfarmerMenu
+  location: class myStore
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[65,41] bad operand types for binary operator '!='
+  first type:  int
+  second type: <nulltype>
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[90,41] bad operand types for binary operator '!='
+  first type:  int
+  second type: <nulltype>
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[115,41] bad operand types for binary operator '!='
+  first type:  int
+  second type: <nulltype>
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[141,41] bad operand types for binary operator '!='
+  first type:  int
+  second type: <nulltype>
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/CropDAO.java:[22,31] main.java.object.cityfarmer.Crop is abstract; cannot be instantiated
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/CropDAO.java:[38,75] cannot find symbol
+  symbol:   variable userName
+  location: class main.java.dao.CropDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/CropDAO.java:[41,40] bad operand types for binary operator '!='
+  first type:  int
+  second type: <nulltype>
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/CropDAO.java:[47,20] incompatible types: boolean cannot be converted to int
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myInventory.java:[21,39] incompatible types: void cannot be converted to int
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myInventory.java:[25,39] cannot find symbol
+  symbol:   class User
+  location: class main.java.pages.cityfarmer.myInventory
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myInventory.java:[25,13] cannot find symbol
+  symbol:   variable MainMenu
+  location: class main.java.pages.cityfarmer.myInventory
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[21,27] cannot find symbol
+  symbol:   variable farmer
+  location: class main.java.pages.cityfarmer.visitFriend
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[22,24] cannot find symbol
+  symbol:   variable farmer
+  location: class main.java.pages.cityfarmer.visitFriend
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[23,26] cannot find symbol
+  symbol:   variable farmer
+  location: class main.java.pages.cityfarmer.visitFriend
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[35,42] incompatible types: void cannot be converted to java.lang.String
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[37,45] cannot find symbol
+  symbol:   variable farmer
+  location: class main.java.pages.cityfarmer.visitFriend
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[39,50] cannot find symbol
+  symbol:   variable farmer
+  location: class main.java.pages.cityfarmer.visitFriend
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[41,34] incompatible types: main.java.object.cityfarmer.Farmer cannot be converted to java.lang.String
+[INFO] 69 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.220 s
+[INFO] Finished at: 2020-04-08T17:51:11+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project IS442-G1T6-IS442: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[6,8] cannot find symbol
+[ERROR]   symbol:   class ArrayList
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[6,18] cannot find symbol
+[ERROR]   symbol:   class Gift
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/cityfarmerMenu.java:[10,46] cannot find symbol
+[ERROR]   symbol:   class Farmer
+[ERROR]   location: class main.java.pages.cityfarmer.cityfarmerMenu
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/cityfarmerMenu.java:[4,1] package main.object.cityfarmer does not exist
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myInventory.java:[4,1] package lib does not exist
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/sendGift.java:[15,40] cannot find symbol
+[ERROR]   symbol:   class Farmer
+[ERROR]   location: class main.java.pages.cityfarmer.sendGift
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/FarmerDAO.java:[24,33] constructor Farmer in class main.java.object.cityfarmer.Farmer cannot be applied to given types;
+[ERROR]   required: java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,double,int,java.util.Date
+[ERROR]   found:    java.lang.String,java.lang.String,int,java.lang.String,double,int,java.util.Date
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Farmer.java:[24,21] fullName has private access in main.java.object.member.User
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[83,78] cannot find symbol
+[ERROR]   symbol:   variable landNumber
+[ERROR]   location: class main.java.object.cityfarmer.VisitLogic
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[83,47] non-static method reduceCrop(int,java.lang.String,int) cannot be referenced from a static context
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[84,87] cannot find symbol
+[ERROR]   symbol:   variable landNumber
+[ERROR]   location: class main.java.object.cityfarmer.VisitLogic
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[91,65] cannot find symbol
+[ERROR]   symbol:   variable landNumber
+[ERROR]   location: class main.java.object.cityfarmer.VisitLogic
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[94,67] incompatible types: int cannot be converted to java.lang.Double
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[94,81] incompatible types: java.lang.Integer cannot be converted to java.lang.Double
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/VisitLogic.java:[105,35] cannot find symbol
+[ERROR]   symbol:   variable sellPrice
+[ERROR]   location: class main.java.object.cityfarmer.VisitLogic
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Land.java:[39,16] incompatible types: java.sql.Timestamp cannot be converted to int
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Land.java:[57,50] no suitable method found for valueOf(java.sql.Timestamp)
+[ERROR]     method java.sql.Timestamp.valueOf(java.lang.String) is not applicable
+[ERROR]       (argument mismatch; java.sql.Timestamp cannot be converted to java.lang.String)
+[ERROR]     method java.sql.Timestamp.valueOf(java.time.LocalDateTime) is not applicable
+[ERROR]       (argument mismatch; java.sql.Timestamp cannot be converted to java.time.LocalDateTime)
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Land.java:[61,54] no suitable method found for valueOf(java.sql.Timestamp)
+[ERROR]     method java.sql.Timestamp.valueOf(java.lang.String) is not applicable
+[ERROR]       (argument mismatch; java.sql.Timestamp cannot be converted to java.lang.String)
+[ERROR]     method java.sql.Timestamp.valueOf(java.time.LocalDateTime) is not applicable
+[ERROR]       (argument mismatch; java.sql.Timestamp cannot be converted to java.time.LocalDateTime)
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Land.java:[69,72] cannot find symbol
+[ERROR]   symbol:   method get(int)
+[ERROR]   location: variable doneString of type java.lang.String
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[8,9] cannot find symbol
+[ERROR]   symbol:   class Connection
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[8,27] cannot find symbol
+[ERROR]   symbol:   variable DriverManager
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[11,9] cannot find symbol
+[ERROR]   symbol:   class Statement
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[16,9] cannot find symbol
+[ERROR]   symbol:   class ArrayList
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[16,19] cannot find symbol
+[ERROR]   symbol:   class Gift
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[16,33] cannot find symbol
+[ERROR]   symbol:   class ArrayList
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[22,23] cannot find symbol
+[ERROR]   symbol:   class Gift
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[26,13] cannot find symbol
+[ERROR]   symbol:   class SQLException
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[33,9] cannot find symbol
+[ERROR]   symbol:   class Connection
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[33,27] cannot find symbol
+[ERROR]   symbol:   variable DriverManager
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[36,9] cannot find symbol
+[ERROR]   symbol:   class Statement
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[43,12] cannot find symbol
+[ERROR]   symbol:   class SQLException
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[51,9] cannot find symbol
+[ERROR]   symbol:   class Connection
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[51,27] cannot find symbol
+[ERROR]   symbol:   variable DriverManager
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[54,9] cannot find symbol
+[ERROR]   symbol:   class Statement
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[62,12] cannot find symbol
+[ERROR]   symbol:   class SQLException
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[70,9] cannot find symbol
+[ERROR]   symbol:   class Connection
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[70,27] cannot find symbol
+[ERROR]   symbol:   variable DriverManager
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[73,9] cannot find symbol
+[ERROR]   symbol:   class Statement
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[81,12] cannot find symbol
+[ERROR]   symbol:   class SQLException
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[89,9] cannot find symbol
+[ERROR]   symbol:   class Connection
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[89,27] cannot find symbol
+[ERROR]   symbol:   variable DriverManager
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[92,9] cannot find symbol
+[ERROR]   symbol:   class Statement
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/GiftDAO.java:[100,12] cannot find symbol
+[ERROR]   symbol:   class SQLException
+[ERROR]   location: class main.java.dao.GiftDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/testfolder/TestWall.java:[19,17] method post in class main.java.dao.UserPostsDAO cannot be applied to given types;
+[ERROR]   required: java.lang.String,java.lang.String,java.util.ArrayList<java.lang.String>,java.lang.String
+[ERROR]   found:    java.lang.String,java.util.ArrayList<java.lang.String>,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/testfolder/TestWall.java:[26,17] method post in class main.java.dao.UserPostsDAO cannot be applied to given types;
+[ERROR]   required: java.lang.String,java.lang.String,java.util.ArrayList<java.lang.String>,java.lang.String
+[ERROR]   found:    java.lang.String,java.util.ArrayList<java.lang.String>,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Gift.java:[10,13] cannot find symbol
+[ERROR]   symbol: variable username
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/object/cityfarmer/Gift.java:[10,25] cannot find symbol
+[ERROR]   symbol:   variable username
+[ERROR]   location: class main.java.Object.CityFarmer.Gift
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/cityfarmerMenu.java:[32,21] cannot find symbol
+[ERROR]   symbol:   variable myStore
+[ERROR]   location: class main.java.pages.cityfarmer.cityfarmerMenu
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[40,39] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class myStore
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[40,13] cannot find symbol
+[ERROR]   symbol:   variable MainMenu
+[ERROR]   location: class myStore
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[43,13] cannot find symbol
+[ERROR]   symbol:   variable cityfarmerMenu
+[ERROR]   location: class myStore
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[65,41] bad operand types for binary operator '!='
+[ERROR]   first type:  int
+[ERROR]   second type: <nulltype>
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[90,41] bad operand types for binary operator '!='
+[ERROR]   first type:  int
+[ERROR]   second type: <nulltype>
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[115,41] bad operand types for binary operator '!='
+[ERROR]   first type:  int
+[ERROR]   second type: <nulltype>
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myStore.java:[141,41] bad operand types for binary operator '!='
+[ERROR]   first type:  int
+[ERROR]   second type: <nulltype>
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/CropDAO.java:[22,31] main.java.object.cityfarmer.Crop is abstract; cannot be instantiated
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/CropDAO.java:[38,75] cannot find symbol
+[ERROR]   symbol:   variable userName
+[ERROR]   location: class main.java.dao.CropDAO
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/CropDAO.java:[41,40] bad operand types for binary operator '!='
+[ERROR]   first type:  int
+[ERROR]   second type: <nulltype>
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/dao/CropDAO.java:[47,20] incompatible types: boolean cannot be converted to int
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myInventory.java:[21,39] incompatible types: void cannot be converted to int
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myInventory.java:[25,39] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class main.java.pages.cityfarmer.myInventory
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/myInventory.java:[25,13] cannot find symbol
+[ERROR]   symbol:   variable MainMenu
+[ERROR]   location: class main.java.pages.cityfarmer.myInventory
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[21,27] cannot find symbol
+[ERROR]   symbol:   variable farmer
+[ERROR]   location: class main.java.pages.cityfarmer.visitFriend
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[22,24] cannot find symbol
+[ERROR]   symbol:   variable farmer
+[ERROR]   location: class main.java.pages.cityfarmer.visitFriend
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[23,26] cannot find symbol
+[ERROR]   symbol:   variable farmer
+[ERROR]   location: class main.java.pages.cityfarmer.visitFriend
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[35,42] incompatible types: void cannot be converted to java.lang.String
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[37,45] cannot find symbol
+[ERROR]   symbol:   variable farmer
+[ERROR]   location: class main.java.pages.cityfarmer.visitFriend
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[39,50] cannot find symbol
+[ERROR]   symbol:   variable farmer
+[ERROR]   location: class main.java.pages.cityfarmer.visitFriend
+[ERROR] /C:/Users/fried_nvxpn/Documents/Github/is442-g1t6-is442/src/main/java/pages/cityfarmer/visitFriend.java:[41,34] incompatible types: main.java.object.cityfarmer.Farmer cannot be converted to java.lang.String
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
